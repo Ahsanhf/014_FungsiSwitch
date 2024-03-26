@@ -11,5 +11,11 @@ void input()
 	cin >> bilB;
 }
 
+int penjumlahan(Int a, int b)
+{
+	return a + b;
+}
+
+
 
 
