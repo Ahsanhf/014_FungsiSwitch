@@ -16,6 +16,11 @@ int penjumlahan(Int a, int b)
 	return a + b;
 }
 
+int pengurangan(Int a, int b)
+{
+	return a - b;
+}
+
 
 
 
