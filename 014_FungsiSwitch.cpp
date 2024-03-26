@@ -21,6 +21,10 @@ int pengurangan(Int a, int b)
 	return a - b;
 }
 
+int pembagian(Int a, int b)
+{
+	return a / b;
+}
 
 
 
