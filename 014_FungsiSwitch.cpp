@@ -3,11 +3,13 @@ using namespace std;
 
 int bilA, bilB;
 
-
-
-int main()
+void input()
 {
-    std::cout << "Hello World!\n";
+	cout << "Masukkan bilangan pertama = ";
+	cin >> bilA;
+	cout << "Masukkan bilangan kedua = ";
+	cin >> bilB;
 }
+
 
 
