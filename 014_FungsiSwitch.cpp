@@ -26,5 +26,10 @@ int pembagian(Int a, int b)
 	return a / b;
 }
 
+int perkalian(Int a, int b)
+{
+	return a % b;
+}
+
 
 
