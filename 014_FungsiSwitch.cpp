@@ -54,17 +54,22 @@ int main()
 			cout << "Hasil Penjumlahan = " << penjumlahan(bilA, bilB) << endl;
 			break;
 		case 2:
-			cout << "Hasil Pengurangan = " << penjumlahan(bilA, bilB) << endl;
+			cout << "Hasil Pengurangan = " << pengurangan(bilA, bilB) << endl;
 			break;
 		case 3:
-			cout << "Hasil Pembagian = " << penjumlahan(bilA, bilB) << endl;
+			cout << "Hasil Pembagian = " << pembagian(bilA, bilB) << endl;
 			break;
 		case 4:
-			cout << "Hasil Perkalian = " << penjumlahan(bilA, bilB) << endl;
+			cout << "Hasil Perkalian = " << perkalian(bilA, bilB) << endl;
 			break;
 		case 5:
 			break;
-	
+		default:
+			cout << "Pilihan anda salah" << endl;
+			break;
 		}
-	}
+		system("pause");
+		system("CLS");
+
+	} while (pilihan != 5);
 }
